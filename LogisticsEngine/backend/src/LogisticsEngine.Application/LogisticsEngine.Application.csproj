@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../LogisticsEngine.Domain/LogisticsEngine.Domain.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+  <ItemGroup><InternalsVisibleTo Include="LogisticsEngine.UnitTests" /></ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hubs\GetAll\" />
+    <Folder Include="Hubs\RegisterHub\" />
+  </ItemGroup>
+</Project>

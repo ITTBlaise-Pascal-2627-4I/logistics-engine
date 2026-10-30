@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>LogisticsEngine.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Il Domain dipende SOLO dallo SharedKernel. Nessun package di infrastruttura. -->
+    <ProjectReference Include="..\LogisticsEngine.SharedKernel\LogisticsEngine.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
